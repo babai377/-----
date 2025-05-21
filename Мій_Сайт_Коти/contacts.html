@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Напиши мені</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="breeds.html">Класні коти</a></li>
+                <li><a href="gallery.html">Фотки котів</a></li>
+                <li><a href="contacts.html">Напиши мені</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Привіт! Напиши мені!</h1>
+
+        <p>Якщо ти хочеш щось спитати або просто розповісти про свого кота, пиши мені в цю форму.</p>
+
+        <form action="#" method="post" style="max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background-color: #f9f9f9;">
+            <div style="margin-bottom: 15px;">
+                <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Твоє ім'я:</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Твій Email:</label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="subject" style="display: block; margin-bottom: 5px; font-weight: bold;">Тема:</label>
+                <input type="text" id="subject" name="subject" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">Твоє повідомлення:</label>
+                <textarea id="message" name="message" rows="6" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical;"></textarea>
+            </div>
+
+            <div style="text-align: center;">
+                <button type="submit" style="background-color: #8B4513; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; transition: background-color 0.3s ease;">Відправити!</button>
+            </div>
+        </form>
+
+        <h2>Наші контакти:</h2>
+        <p><strong>Email:</strong> info@catmail.com </p>
+        <p><strong>Телефон:</strong> 098 765 4321 </p>
+        <p><strong>Адреса:</strong> Кото-вулиця, будинок 1, Кото-місто </p>
+
+    </main>
+
+    <footer>
+        <p>Сайт про котів. Няв!</p>
+    </footer>
+</body>
+</html>
